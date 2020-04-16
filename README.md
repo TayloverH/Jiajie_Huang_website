@@ -39,8 +39,10 @@ You can change the `.jemdoc` file to customize your website.
 There are some links to learn about jemdoc:
 
 - http://jemdoc.jaboc.net/using.html
-- https://www.jianshu.com/p/88ac1961d7d6
+- https://www.jianshu.com/p/88ac1961d7d6 
 - https://www.jianshu.com/p/34435af74f7e
+
+(I don't think the two '简书' instructions are useful. The information they carry can be derived from the template given by https://github.com/yongfu-li/personal-profile-webpage as long as the user have basic coding abilities. -Jiajie Huang)
 
 > **PS:**
 >
