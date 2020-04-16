@@ -1,0 +1,25 @@
+# jemdoc: menu{MENU}{publications.html}
+# jemdoc: addcss{./jemdoc.css}
+# jemdoc: title{Publications}
+# jemdoc: analytics{|}
+# jemdoc: nofooter
+
+
+= Publications
+
+
+=== Books / Book Chapters
+
+=== Journal Papers
+
+==== 2020
+
+- \[J1\] Z. Yi ,  {{<font color= \#a8d6ff ><b>J. Huang</b></font>}} ,  Z. Liu ,  J. Liu  and  B. Yang, "Portable, Wireless Wearable Piezoelectric Arterial Pulse Monitoring System Based on Near-Field Communication Approach", IEEE Electron Device Letters, pp. 183-186, 2020. 
+
+
+=== Conference Papers
+
+=== Dissertation
+
+=== Seminars / Talks
+

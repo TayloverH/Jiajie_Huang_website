@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{biography.html}
+# jemdoc: addcss{./jemdoc.css}
+# jemdoc: title{Biography}
+# jemdoc: analytics{|}
+# jemdoc: nofooter
+
+~~~
+{}{img_left}{./image/Your-image.png}{Jiajie Huang}{170}{}{}
+= Jiajie Huang
+
+*E-mail:* H1402731943@sjtu.edu.cn
+
+~~~
+= Biography
+Jiajie Huang is currently working toward the B.Sc degree in Microelectronics Science and Technology in Shanghai Jiao Tong University, Shanghai, China. \n\n
+He has received and accepted the postgraduate recommendation from the department of Micro/Nano Electronics, Shanghai Jiao Tong University. 
+He will be working in the Bio-Circuits and Systems Lab since Sep, 2020.\n\n
+His research direction is Electrical Impedance Tomography (EIT) and his Final Year Project is Current Stimulator Design for the EIT system. 
+He is currently exploring the possibility of combing Harmonic Distortion (HD) Cancellation technique with Sigma Delta DAC.\n

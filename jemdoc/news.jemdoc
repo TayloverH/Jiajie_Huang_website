@@ -1,0 +1,9 @@
+# jemdoc: menu{MENU}{news.html}
+# jemdoc: addcss{./jemdoc.css}
+# jemdoc: title{News}
+# jemdoc: analytics{|}
+# jemdoc: nofooter
+
+= Past News
+- 04/2020: Welcome to my webpage
+

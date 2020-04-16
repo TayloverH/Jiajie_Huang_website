@@ -1,0 +1,2 @@
+cd ./jemdoc
+makefile
