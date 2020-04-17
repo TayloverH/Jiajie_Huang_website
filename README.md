@@ -28,15 +28,15 @@ Open the repository you just forked.
 
 ## 3. Change the template
 
-After cloning the repository you just forked and renamed to local, you can change your website as like as you want.
+After **cloning** the repository you just forked and renamed to local, you can change your website as like as you want.
 
 Structure of the template:
 
 ![image-20200323155328672](./image/README/image-20200323155328672.png)
 
-You can change the `.jemdoc` file to customize your website. 
+You can change the **`.jemdoc` files** to customize your website. 
 
-There are some links to learn about jemdoc:
+Here are some links on jemdoc:
 
 - http://jemdoc.jaboc.net/using.html
 - https://www.jianshu.com/p/88ac1961d7d6 
@@ -51,16 +51,16 @@ There are some links to learn about jemdoc:
 > 1. Get the `BibTex` of your publication, eg, 
 >
 >    ```latex
->    %@ARTICLE{ELL-2019-4180,
->    %author={A. R. Mohamed and Y. Li and G. Wang},
->    %journal={ietel},
->    %title="{A Generic Nano-Watt Power Fully Tunable 1-D Gaussian Kernel Circuit for Neural Network}",
->    %year={2019},
->    %volume={},
->    %number={},
->    %pages={1-1},
->    %month={},
->    %}
+>    @ARTICLE{ELL-2019-4180,
+>    author={A. R. Mohamed and Y. Li and G. Wang},
+>    journal={ietel},
+>    title="{A Generic Nano-Watt Power Fully Tunable 1-D Gaussian Kernel Circuit for Neural Network}",
+>    year={2019},
+>    volume={},
+>    number={},
+>    pages={1-1},
+>    month={},
+>    }
 >    ```
 >
 > 2. Add the `BibTex` to `./ref/publications.bib`
