@@ -70,7 +70,7 @@ Here are some links on jemdoc for reference:
 > 3. Make changes in the following line in `./jemdoc/makefile.bat` (e.g. To highlight Jiajie Huang instead of Yongfu Li, change "Y.\ Li", "Yongfu\ Li", and "Li,\ Yongfu" as "J.\Huang", "Jiajie\ Huang", and "Huang,\ Jiajie"):
 >
 >    
-> ```python
+> ``` Python
 >python ../ref/bibconvert.py --suffix web --highlight "$\color{red}{Y.\ Li}$" --highlight "$\color{red}{Yongfu\ Li}$" --highlight "$\color{red}{Li,\ Yongfu}$" --input ../ref/Top.bib --input ../ref/publications.bib --header publications_header.jemdoc > publications.jemdoc
 > ```
 >
@@ -95,7 +95,7 @@ Linux:
 
 After pushing the changes to your repo, your website will be updated.
 > Beware that you can and will need to make changes to **run1.bat** and **jemdoc/makefile.bat** if you plan to change the **MENU**.
-> You can run this commend to convert your "jemdoc" files into ".html" files 
+> You can run this commend to convert your "jemdoc" files into ".html" files: 
 > ``` Python
 > python ./jemdoc.py -o ../ example.jemdoc
 > ```
