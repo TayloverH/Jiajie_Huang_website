@@ -70,8 +70,8 @@ Here are some links on jemdoc:
 >    > python ../ref/bibconvert.py --suffix web --highlight "$\color{red}{Y.\ Li}$" --highlight "$\color{red}{Yongfu\ Li}$" --highlight "$\color{red}{Li,\ Yongfu}$" --input ../ref/Top.bib --input ../ref/publications.bib --header publications_header.jemdoc > publications.jemdoc
 >
 >    this operation will highlight your name in `BibTex` automatically, and the format of your name will be given in the above code.
-
-
+>
+> If you want to use Chinese characters, change line 142 in jemdoc.py: replace **'utf-8'** with **'GBK'**.
 
 ## 4. Update your website
 
