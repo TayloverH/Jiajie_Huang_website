@@ -32,7 +32,7 @@ After **cloning** the repository you just forked and renamed to local, you can c
 
 Structure of the template:
 
-<img src="./image/README/image-20200323155328672.png"  width="100" align="center"/>
+<img src="./image/README/image-20200323155328672.png"  width="500" div align="center"/>
 
 You can change the **`.jemdoc` files** to customize your website. 
 
