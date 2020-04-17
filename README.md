@@ -65,7 +65,7 @@ Here are some links on jemdoc:
 >
 > 2. Add the `BibTex` to `./ref/publications.bib`
 >
-> 3. Change the red part of the code in `./jemdoc/makefile.bat`:
+> 3. Make changes in the following line in `./jemdoc/makefile.bat` (e.g. To highlight Jiajie Huang instead of Yongfu Li, change "Y.\ Li", "Yongfu\ Li", and "Li,\ Yongfu" as "J.\Huang", "Jiajie\ Huang", and "Huang,\ Jiajie"):
 >
 >    > python ../ref/bibconvert.py --suffix web --highlight "$\color{red}{Y.\ Li}$" --highlight "$\color{red}{Yongfu\ Li}$" --highlight "$\color{red}{Li,\ Yongfu}$" --input ../ref/Top.bib --input ../ref/publications.bib --header publications_header.jemdoc > publications.jemdoc
 >
@@ -75,12 +75,18 @@ Here are some links on jemdoc:
 
 ## 4. Update your website
 
-After changing the profile, run the command follow:
+After changing the ".jemdoc" files on your desktop, run the command follow:
 
+Windows:
+```shell
+run1
+run2
+```
+
+Linux:
 ```shell
 ./run1.bat
 ./run2.bat
 ```
 
-Then the changes will be updated to your website.
-
+After pushing the changes to your repo, your website will be updated.
