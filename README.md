@@ -28,7 +28,7 @@ Open the repository you just forked.
 
 ## 3. Change the template
 
-After **cloning** the repository you just forked and renamed to local, you can change your website as like as you want.
+After <font size="4"> **cloning** </font> the repository you just forked and renamed to local, you can change your website as you want.
 
 Structure of the template:
 
