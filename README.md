@@ -76,7 +76,7 @@ Here are some links on jemdoc for reference:
 
 ## 4. Update your website
 
-After changing the ".jemdoc" files on your desktop, run the command follow:
+After changing the ".jemdoc" files on your desktop, run the following commands:
 
 Windows:
 ```shell
@@ -91,3 +91,8 @@ Linux:
 ```
 
 After pushing the changes to your repo, your website will be updated.
+> Beware that you can and will need to make changes to **run1.bat** and **jemdoc/makefile.bat** if you plan to change the **MENU**.
+> You can run this commend to convert your "jemdoc" files into ".html" files 
+``` Python
+python ./jemdoc.py -o ../ example.jemdoc
+```
