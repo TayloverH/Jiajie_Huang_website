@@ -28,9 +28,11 @@ Open the repository you just forked.
 
 ## 3. Change the template
 
-After <font size="4"> **cloning** </font> the repository you just forked and renamed to local, you can change your website as you want.
+**Clone** the repository you just forked to your computer.
 
-Structure of the template:
+Now you can make changes to your website by changing the **".jemdoc"** files. You can also change the MENU. They are all under the **jemdoc** folder.
+
+The **structure** of this template is shown in the following picture:
 
 <img src="./image/README/image-20200323155328672.png"  width="500" div align="center"/>
 
