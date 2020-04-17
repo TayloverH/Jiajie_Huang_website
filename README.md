@@ -14,15 +14,15 @@ Fork jemdoc tempalte from https://github.com/yongfu-li/personal-profile-webpage.
 
 Open the repository you just forked.
 
-- `Settings`  
+- Go to`Settings`  
 
   ![image-20200323145950184](./image/README/image-20200323145950184.png)
 
-- Rename the repository you like, eg: Mywebsite
+- Rename the repository to whatever you like, eg: Mywebsite
 
   ![image-20200323150318269](./image/README/image-20200323150318269.png)
 
-- Scroll down to `GitHub Pages` -> ②, select `master branch` in the check box below `Source` -> ①, then the page will flash automatically, and you can get the website url -> ③
+- Scroll down to `GitHub Pages` -> ②, then select `master branch` in the check box below `Source` -> ①. The page will flash automatically, and you can get the website url -> ③.
 
   ![image-20200323150526799](./image/README/image-20200323150526799.png)
 
@@ -36,9 +36,7 @@ The **structure** of this template is shown in the following picture:
 
 <img src="./image/README/image-20200323155328672.png"  width="500" div align="center"/>
 
-You can change the **`.jemdoc` files** to customize your website. 
-
-Here are some links on jemdoc:
+Here are some links on jemdoc for reference:
 
 - http://jemdoc.jaboc.net/using.html
 - https://www.jianshu.com/p/88ac1961d7d6 
@@ -48,9 +46,11 @@ Here are some links on jemdoc:
 
 > **PS:**
 >
-> If you want to add your publications in the website, you should follow the steps bellow:
+> If you want to use **Chinese characters**, change line 142 in jemdoc.py: replace **'utf-8'** with **'GBK'**.
 >
-> 1. Get the `BibTex` of your publication, eg, 
+> If you want to add your **publications** to the website, you should follow the steps bellow:
+>
+> 1. Get the `BibTex` of your publication, e.g.
 >
 >    ```latex
 >    @ARTICLE{ELL-2019-4180,
@@ -72,8 +72,7 @@ Here are some links on jemdoc:
 >    > python ../ref/bibconvert.py --suffix web --highlight "$\color{red}{Y.\ Li}$" --highlight "$\color{red}{Yongfu\ Li}$" --highlight "$\color{red}{Li,\ Yongfu}$" --input ../ref/Top.bib --input ../ref/publications.bib --header publications_header.jemdoc > publications.jemdoc
 >
 >    this operation will highlight your name in `BibTex` automatically, and the format of your name will be given in the above code.
->
-> If you want to use Chinese characters, change line 142 in jemdoc.py: replace **'utf-8'** with **'GBK'**.
+
 
 ## 4. Update your website
 
