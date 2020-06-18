@@ -4,13 +4,13 @@
 
 
 
-## 1. Fork the template
+## 1. Fork template
 
-Fork the jemdoc template from https://github.com/yongfu-li/personal-profile-webpage.git
+Fork jemdoc tempalte from https://github.com/yongfu-li/personal-profile-webpage.git
 
 ![image-20200323150759566](./image/README/image-20200323150759566.png)
 
-## 2. Set `GitHub Pages`
+## 2. Setting `GitHub Pages`
 
 Open the repository you just forked.
 
@@ -69,17 +69,14 @@ Here are some links on jemdoc for reference:
 >
 > 3. Make changes in the following line in `./jemdoc/makefile.bat` (e.g. To highlight Jiajie Huang instead of Yongfu Li, change "Y.\ Li", "Yongfu\ Li", and "Li,\ Yongfu" as "J.\Huang", "Jiajie\ Huang", and "Huang,\ Jiajie"):
 >
->    
-> ``` Python
->python ../ref/bibconvert.py --suffix web --highlight "$\color{red}{Y.\ Li}$" --highlight "$\color{red}{Yongfu\ Li}$" --highlight "$\color{red}{Li,\ Yongfu}$" --input ../ref/Top.bib --input ../ref/publications.bib --header publications_header.jemdoc > publications.jemdoc
-> ```
+>    > python ../ref/bibconvert.py --suffix web --highlight "$\color{red}{Y.\ Li}$" --highlight "$\color{red}{Yongfu\ Li}$" --highlight "$\color{red}{Li,\ Yongfu}$" --input ../ref/Top.bib --input ../ref/publications.bib --header publications_header.jemdoc > publications.jemdoc
 >
 >    this operation will highlight your name in `BibTex` automatically, and the format of your name will be given in the above code.
 
 
 ## 4. Update your website
 
-After changing the ".jemdoc" files on your desktop, run the following commands:
+After changing the ".jemdoc" files on your desktop, run the command follow:
 
 Windows:
 ```shell
@@ -94,8 +91,3 @@ Linux:
 ```
 
 After pushing the changes to your repo, your website will be updated.
-> Beware that you can and will need to make changes to **run1.bat** and **jemdoc/makefile.bat** if you plan to change the **MENU**.
-> You can run this commend to convert your "jemdoc" files into ".html" files: 
-> ``` Python
-> python ./jemdoc.py -o ../ example.jemdoc
-> ```
