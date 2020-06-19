@@ -6,8 +6,7 @@
 
 ## 1. Fork template
 
-Fork jemdoc tempalte from https://github.com/yongfu-li/personal-profile-webpage.git
-
+Fork this template
 ![image-20200323150759566](./image/README/image-20200323150759566.png)
 
 ## 2. Setting `GitHub Pages`
@@ -91,3 +90,5 @@ Linux:
 ```
 
 After pushing the changes to your repo, your website will be updated.
+
+$F_{test}=1$
