@@ -90,5 +90,3 @@ Linux:
 ```
 
 After pushing the changes to your repo, your website will be updated.
-
-$F_{test}=1$
