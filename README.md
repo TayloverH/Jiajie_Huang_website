@@ -4,12 +4,11 @@
 
 
 
-## 1. Fork template
+## 1. Copy this template
 
-Fork this template
-![image-20200323150759566](./image/README/image-20200323150759566.png)
+Clone this repo to your own repo
 
-## 2. Setting `GitHub Pages`
+## 2. Set `GitHub Pages`
 
 Open the repository you just forked.
 
