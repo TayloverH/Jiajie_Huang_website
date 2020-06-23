@@ -26,7 +26,6 @@ Open the repository you just forked.
 
 ## 3. Change the template
 
-**Clone** the repository you just forked to your computer.
 
 Now you can make changes to your website by changing the **".jemdoc"** files. You can also change the MENU. They are all under the **jemdoc** folder.
 
